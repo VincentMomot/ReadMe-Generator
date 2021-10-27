@@ -39,10 +39,10 @@ inquirer.prompt([
         message: "What license do you need?",
         name: "license",
         choices: [
-        '[MIT]',
-        '[ISC]',
-        '[GPLv3]'
-      ]
+            '[MIT]',
+            '[ISC]',
+            '[GPLv3]'
+        ]
     },
     {
         type: "input",
@@ -53,13 +53,18 @@ inquirer.prompt([
         type: "input",
         message: "What is your email?",
         name: "email"
+    },
+    {
+        type: "input",
+        message: "Enter your filepath for your image",
+        name: "image"
     }
 
 
 ])
     .then(answers => {
         fs.writeFile('README.md',
-       `![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)
+            `![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)
 # ${answers.title}\n 
 ## Project Description
 ${answers.description}\n
@@ -70,8 +75,6 @@ ${answers.description}\n
 * [Guidelines](#guidelines)
 * [Instructions](#instructions)
 * [Contact and GitHub Info](contact-and-github-info)
-
-
 
 ## Installation
 <a name="i"></a>
@@ -87,9 +90,10 @@ ${answers.instructions}\n
 <a name="c"></a>
 ## Contact and GitHub Info \n
 Github Username: ${answers.github} \n 
-email: ${answers.email}`
- ,
-
+email: ${answers.email}\n
+Screenshot of deployed application:\n
+![This is an image of the deployed application](${answers.image})`
+,
             (err) => err ? console.error(err) : console.log("New ReadMe Created"))
     })
 

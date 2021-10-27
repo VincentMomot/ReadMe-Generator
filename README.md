@@ -1,8 +1,8 @@
-![License: [ISC]](https://img.shields.io/badge/License-[ISC]-blue.svg)
-# 123456
+![License: [MIT]](https://img.shields.io/badge/License-[MIT]-blue.svg)
+# 12345r
  
 ## Project Description
-23456
+234t
 
 
 ## Table of contents
@@ -12,26 +12,28 @@
 * [Instructions](#instructions)
 * [Contact and GitHub Info](contact-and-github-info)
 
-
-
 ## Installation
 <a name="i"></a>
-23456
+wert
 
 <a name="u"></a>
 ## Usage Information
-23456
+sdfg
 
 <a name="g"></a>
 ## Guidelines
-23456
+sdfg
 
 ## Instructions
-234567
+sadfg
 
 <a name="c"></a>
 ## Contact and GitHub Info 
 
-Github Username: vincemomot 
+Github Username: asdfg 
  
-email: vincemomot@gmail.com
+email: asdfgf
+
+Screenshot of deployed application:
+
+![This is an image of the deployed application](sdfgc)
