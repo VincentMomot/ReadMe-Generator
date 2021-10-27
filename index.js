@@ -39,9 +39,9 @@ inquirer.prompt([
         message: "What license do you need?",
         name: "license",
         choices: [
-        'MIT',
-        'ISC',
-        'GPL'
+        '[MIT]',
+        '[ISC]',
+        '[GPLv3]'
       ]
     },
     {
@@ -59,21 +59,21 @@ inquirer.prompt([
 ])
     .then(answers => {
         fs.writeFile('README.md',
-       `
+       `![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)
 # ${answers.title}\n 
 ## Project Description
 ${answers.description}\n
 
 ## Table of contents
-1. [Installation Instructions](#i)
-2. [Project Usage](#u)
-3. [Project Guidelines](#g)
-4. [Test Instructions](#t)
-5. [Contact and GitHub Info](#c)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Guidelines](#guidelines)
+* [Instructions](#instructions)
+* [Contact and GitHub Info](contact-and-github-info)
 
 
 
-## Installation Instructions
+## Installation
 <a name="i"></a>
 ${answers.install}\n
 <a name="u"></a>
@@ -81,8 +81,8 @@ ${answers.install}\n
 ${answers.usage}\n
 <a name="g"></a>
 ## Guidelines
-${answers.guidelines}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-## Test Instructions
+${answers.guidelines}\n
+## Instructions
 ${answers.instructions}\n
 <a name="c"></a>
 ## Contact and GitHub Info \n
