@@ -26,7 +26,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: "What are the guidelines of your project",
+        message: "What are the guidelines of your project?",
         name: "guidelines"
     },
     {
@@ -63,7 +63,7 @@ inquirer.prompt([
 
 ])
     .then(answers => {
-        fs.writeFile('README.md',
+        fs.writeFile('READMEexample.md',
             `![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)
 # ${answers.title}\n 
 ## Project Description
@@ -74,13 +74,13 @@ ${answers.description}\n
 * [Usage](#usage)
 * [Guidelines](#guidelines)
 * [Instructions](#instructions)
-* [Contact and GitHub Info](contact-and-github-info)
+* [Contact and GitHub Info](questions)
 
 ## Installation
 <a name="i"></a>
 ${answers.install}\n
 <a name="u"></a>
-## Usage Information
+## Usage
 ${answers.usage}\n
 <a name="g"></a>
 ## Guidelines
@@ -88,13 +88,13 @@ ${answers.guidelines}\n
 ## Instructions
 ${answers.instructions}\n
 <a name="c"></a>
-## Contact and GitHub Info \n
-Github Username: ${answers.github} \n 
+## Questions: \n
+Github Profile: https://github.com/${answers.github} \n 
 email: ${answers.email}\n
 Screenshot of deployed application:\n
 ![This is an image of the deployed application](${answers.image})`
 ,
-            (err) => err ? console.error(err) : console.log("New ReadMe Created"))
+            (err) => err ? console.error(err) : console.log("ReadMe Created!"))
     })
 
 // TODO: Create a function to initialize app

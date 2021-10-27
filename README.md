@@ -1,8 +1,8 @@
 ![License: [MIT]](https://img.shields.io/badge/License-[MIT]-blue.svg)
-# 12345r
+# ReadMe-Generator
  
 ## Project Description
-234t
+Use this program to create elegant README.md files
 
 
 ## Table of contents
@@ -14,29 +14,32 @@
 
 ## Installation
 <a name="i"></a>
-wert
+Make sure you have nodeJS installed and the npm package 'inquirer' is installed
 
 <a name="u"></a>
 ## Usage Information
-sdfg
+This is an open source project and is not intended for commercial use.
+This program was created by Vince Momot on 10-27-2021 and should not be claimed as anyone elses work.
 
 <a name="g"></a>
 ## Guidelines
-sdfg
+Contributions are welcome to improve the functionality fo the application.
 
 ## Instructions
-sadfg
+Make sure you are in the correct folder of the index.js file and type in 'node ./index.js'
+Fill in the prompts that are asked and select a license for your application. 
+Add an image and image description and a beautiful readme will be generated along with a table of contents.
 
 <a name="c"></a>
-## Contact and GitHub Info 
+## Questions 
 
-Github Username: asdfg 
+Github Username: VincentMomot 
+
+Github Project Link: https://github.com/VincentMomot/ReadMe-Generator 
  
-email: asdfgf
+email: vincemomot@gmail.com
 
-Screenshot of deployed application:
+Deployed application:
 
 ![This is an image of the deployed application](./image.jpg)
-https://user-images.githubusercontent.com/6877923/115474571-03c75800-a23e-11eb-8096-8973aad5fa9f.mp4
-
-./vid.mp4
+![This is a link to the video walkthrough](https://youtu.be/yf8zwMTZ9HE)
