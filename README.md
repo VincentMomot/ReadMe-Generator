@@ -41,5 +41,6 @@ email: vincemomot@gmail.com
 
 Deployed application:
 
-![This is an image of the deployed application](./image.jpg)
-![This is a link to the video walkthrough](https://youtu.be/yf8zwMTZ9HE)
+[This is an image of the deployed application](./image.png)
+
+[This is a link to the video walkthrough](https://youtu.be/yf8zwMTZ9HE)
