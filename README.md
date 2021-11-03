@@ -1,4 +1,4 @@
-![License: [MIT]](https://img.shields.io/badge/License-[MIT]-blue.svg)
+[![License: ICL](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 # ReadMe-Generator
  
 ## Project Description
