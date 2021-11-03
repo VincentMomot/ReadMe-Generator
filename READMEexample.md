@@ -1,8 +1,8 @@
-![License: [ISC]](https://img.shields.io/badge/License-[ISC]-blue.svg)
-# Test ReadMe
+[![License: ICL](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+# ReadMe-Generator
  
 ## Project Description
-This application is to allow professional ReadMe files to be generated quickly specifically for open source projects
+Use this program to create elegant README.md files
 
 
 ## Table of contents
@@ -14,7 +14,7 @@ This application is to allow professional ReadMe files to be generated quickly s
 
 ## Installation
 <a name="i"></a>
-Ensure that you have installed npm inquirer and that NodeJS has been downloaded
+Make sure you have nodeJS installed and the npm package 'inquirer' is installed
 
 <a name="u"></a>
 ## Usage
@@ -25,7 +25,10 @@ This is an open source project and is not intended for commercial use. This prog
 Contributions are welcome to improve the functionality fo the application.
 
 ## Instructions
-Make sure you are in the correct folder of the index.js file and type in 'node ./index.js', Fill in the prompts that are asked and select a license for your application. Add an image and image description and a beautiful readme will be generated along with a table of contents.
+Make sure you are in the correct folder of the index.js file and type in 'node ./index.js'
+Fill in the prompts that are asked and select a license for your application. 
+Add an image and image description and a beautiful readme will be generated along with a table of contents.
+
 
 <a name="c"></a>
 ## Questions: 
@@ -36,4 +39,4 @@ email: vincemomot@gmail.com
 
 Screenshot of deployed application:
 
-![This is an image of the deployed application](image.png)
+![This is an image of the deployed application](assets/image.PNG)
