@@ -41,7 +41,6 @@ inquirer.prompt([
         choices: [
             '[MIT]',
             '[ISC]',
-            '[GPLv3]'
         ]
     },
     {
@@ -64,7 +63,7 @@ inquirer.prompt([
 ])
     .then(answers => {
         fs.writeFile('READMEexample.md',
-            `![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)
+            `![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)(https://opensource.org/licenses/${answers.license})
 # ${answers.title}\n 
 ## Project Description
 ${answers.description}\n
